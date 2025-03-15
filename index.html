@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login ans SignUp</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="signup">
+        <header>SignUp</header>
+        <form class="signupForm">
+          <input
+            type="text"
+            placeholder="Full name"
+            class="fullName"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email address"
+            class="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="password"
+            minlength="4"
+            required
+          />
+          <div class="terms">
+            <input type="checkbox" id="terms" />
+            <label for="terms">I accept all terms & conditions</label>
+          </div>
+          <input type="submit" id="btnsubmit" value="SignUp" />
+        </form>
+      </div>
+      <div class="login">
+        <header>Login</header>
+        <form class="loginForm">
+          <input
+            type="email"
+            placeholder="Email address"
+            class="email_login"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="password_login"
+            minlength="4"
+            required
+          />
+          <label for="forget-password">Forgot password?</label>
+          <input type="submit" id="btnlogin" value="Login" />
+        </form>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
