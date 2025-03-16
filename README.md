@@ -24,4 +24,3 @@ It allows users to **create an account** and **log in** with their credentials.
 ---
 
 💻 **Developed by** [Omar Walied](https://github.com/0marwalied)  
-📌 **GitHub Repo:** [Login-and-Signup](https://github.com/0marwalied/Login-and-Signup)
