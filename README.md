@@ -20,7 +20,3 @@ It allows users to **create an account** and **log in** with their credentials.
 - **HTML** – Structure  
 - **CSS** – Styling & Animations  
 - **JavaScript** – Form handling  
-
----
-
-💻 **Developed by** [Omar Walied](https://github.com/0marwalied)  
